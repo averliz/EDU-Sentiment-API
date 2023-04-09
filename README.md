@@ -16,8 +16,8 @@ To install the microservice, follow these steps:
 
 1. Clone the repository to your local system.
    ```
-   git clone https://github.com/<username>/<repository-name>.git
-   cd <repository-name>
+   git clone https://github.com/averliz/EDU-Sentiment-API.git
+   cd EDU-Sentiment-API
    ```
 2. Create a new virtual environment in the cloned directory. 
    ```
