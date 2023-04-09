@@ -316,7 +316,7 @@ def ours_bert():
 
     model = BertHANREG()
     model.to(compute_device)
-    model_path = os.path.join("./model_files/mams_bert_han_reg.pth")
+    model_path = os.path.join("./model_files/rest_han_reg.pth")
     model.load_state_dict(torch.load(model_path))
 
     test_data = pkl.load(open('./exp_data/mams_mul_infer_test.pkl', 'rb'))
@@ -341,7 +341,7 @@ if __name__ == '__main__':
     torch.cuda.manual_seed_all(const_random_sate)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
-    dataset = json.load(open('./exp_data/mams_sgl.json', 'r'))
+    dataset = json.load(open('./exp_data/rest14_mul.json', 'r'))
 
     timings = []
     for i in range(100):

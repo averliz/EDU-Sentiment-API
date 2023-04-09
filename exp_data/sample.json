@@ -1,0 +1,18 @@
+{
+  "query": [
+    {
+      "text": "The menu changed , portions were even smaller than before , a lentil dish was salty beyond edibility , a basmati rice dish lacked flavor .",
+      "segs": ["The menu changed ,", "portions were even smaller than before ,", "a lentil dish was salty beyond edibility", ", a basmati rice dish lacked flavor ."],
+      "asp_pol": [],
+      "segs_labels": {
+        
+      },
+      "segs2idx": [
+      ],
+      "asp_pol_idx": []
+    }
+  ]
+}
+
+
+
