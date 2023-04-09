@@ -45,6 +45,6 @@ To start the FastAPI server, run the following command in your terminal while yo
 ``` 
 uvicorn main:app --reload
 ```
-This will start the FastAPI server at http://localhost:8000. You can send HTTP POST requests to http://localhost:8000/api/edu-sentiment-analysis-service with JSON input data to get sentiment analysis results.
+This will start the FastAPI server at http://localhost:8001. You can send HTTP POST requests to http://localhost:8001/api/edu-sentiment-analysis-service with JSON input data to get sentiment analysis results.
 
 
