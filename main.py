@@ -24,6 +24,9 @@ class InputData(BaseModel):
 class AnalysisResult(BaseModel):
     query: str
 
+@app.get("/")
+def home():
+    return {"health_check": "ok"}
 
 @app.post("/api/edu-sentiment-analysis-service", response_model=AnalysisResult)
 def edu_sentiment_analysis(input_data: InputData = Body(...)):
